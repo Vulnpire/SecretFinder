@@ -1,4 +1,6 @@
 
+```git clone https://github.com/Vulnpire/SecretFinder;cd SecretFinder;pip3 install -r requirements.txt;chmod +x SecretFinder.py;ln -s `pwd`/SecretFinder.py /usr/bin/SecretFinder.py```
+
 ## about SecretFinder
 
 SecretFinder is a python script based on [LinkFinder](https://github.com/GerbenJavado/LinkFinder), written to discover sensitive data like apikeys, accesstoken, authorizations, jwt,..etc in JavaScript files. It does so by using jsbeautifier for python in combination with a fairly large regular expression. The regular expressions consists of four small regular expressions. These are responsible for finding and search anything on js files.
